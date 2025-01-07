@@ -5,7 +5,7 @@
   lecturer:  Bo Dai
   title: >
     <strong>Course Overview</strong>
-  slides: 
+  slides: https://bo-dai.github.io/CS4641-spring2025/assignment/background_test_2024.pdf
   # video:
   readings:
     - Background Test Out
@@ -17,7 +17,7 @@
   slides: 
   # video:
   readings:
-    - Background Test Due
+    - Background Test Due (Hand in during class)
 
 # - date: 01/10/2025
 #   lecturer:  Bo Dai
