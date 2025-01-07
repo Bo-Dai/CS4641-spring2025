@@ -5,10 +5,11 @@
   lecturer:  Bo Dai
   title: >
     <strong>Course Overview</strong>
-  slides: https://bo-dai.github.io/CS4641-spring2025/assignment/background_test_2024.pdf
+  assignment: https://bo-dai.github.io/CS4641-spring2025/assignment/background_test_2024.pdf
+  slides:
   # video:
   readings:
-    - Background Test Out
+    - Background Test Out (See assignment)
 
 - date: 01/08/2025
   lecturer:  Bo Dai
