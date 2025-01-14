@@ -33,7 +33,7 @@ title: Lectures
         <br />
         {{ lecture.title }}
         <br />
-        {% if lecture.slides or lecture.video or lecture.assignment%}
+        {% if lecture.slides or lecture.notes or lecture.assignment%}
         [
             {% if lecture.slides %}
             <a href="{{ lecture.slides }}" target="_blank">slides</a>
@@ -44,11 +44,11 @@ title: Lectures
             {% if lecture.assignment %}
             <a href="{{ lecture.assignment }}" target="_blank">assignment</a>
             {% endif %}
-            {% if lecture.video and lecture.assignment%}
+            {% if lecture.notes and lecture.assignment%}
               |  
             {% endif %}
-            {% if lecture.video %}
-            <a href="{{ lecture.video }}" target="_blank">recording (Canvas)</a>
+            {% if lecture.notes %}
+            <a href="{{ lecture.notes }}" target="_blank">notes</a>
             {% endif %}
         ]
         {% endif %}

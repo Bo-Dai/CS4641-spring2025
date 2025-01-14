@@ -32,8 +32,8 @@
   lecturer:  Bo Dai
   title: >
     <strong>Probabilistic and Statistics</strong>
-  slides: 
-  # video:
+  slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture3.pdf
+  notes: https://bo-dai.github.io/CS4641-spring2025/slides/BasicProbStats.pdf
   readings:
 
 - date: 01/15/2025
