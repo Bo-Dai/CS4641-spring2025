@@ -54,13 +54,10 @@ title: Lectures
         {% endif %}
     </td>
     <td>
-        {% assign keys = lecture | keys %}
         <ul>
-        {% for key in keys %}
+        {% for key in lecture %}
             {% if key contains "reading_material_" %}
-            <li>
-                {{ lecture[key] }}
-            </li>
+            <li>{{ lecture[key] }}</li>
             {% endif %}
         {% endfor %}
         </ul>
