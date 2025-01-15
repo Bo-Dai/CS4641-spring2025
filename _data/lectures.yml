@@ -42,6 +42,7 @@
   title: >
     <strong>Optimization</strong>
   slides: 
+  assignment: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW1.pdf
   # video:
   readings:
     - HW1 out
@@ -55,7 +56,7 @@
   readings:
 
 - date: 01/22/2025
-  lecturer:  Haotian Sun
+  lecturer:  Haotian Sun & Tianyi Chen
   title: >
     <strong>Python / Numpy Review Session (TA session)</strong>
   slides: 
