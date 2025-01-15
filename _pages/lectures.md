@@ -54,14 +54,15 @@ title: Lectures
         {% endif %}
     </td>
     <td>
-        {% assign index = 1 %}
+        {% assign keys = lecture | keys %}
         <ul>
-        {% while lecture["reading_material_" | append: index] %}
+        {% for key in keys %}
+            {% if key contains "reading_material_" %}
             <li>
-                {{ lecture["reading_material_" | append: index] }}
+                {{ lecture[key] }}
             </li>
-            {% assign index = index | plus: 1 %}
-        {% endwhile %}
+            {% endif %}
+        {% endfor %}
         </ul>
     </td>
     <td>
