@@ -33,7 +33,7 @@ title: Lectures
         <br />
         {{ lecture.title }}
         <br />
-        {% if lecture.slides or lecture.notes or lecture.assignment%}
+        {% if lecture.slides or lecture.notes or lecture.assignment %}
         [
             {% if lecture.slides %}
             <a href="{{ lecture.slides }}" target="_blank">slides</a>
@@ -44,7 +44,7 @@ title: Lectures
             {% if lecture.assignment %}
             <a href="{{ lecture.assignment }}" target="_blank">assignment</a>
             {% endif %}
-            {% if lecture.notes and lecture.assignment%}
+            {% if lecture.notes and lecture.assignment %}
               |  
             {% endif %}
             {% if lecture.notes %}
@@ -54,13 +54,15 @@ title: Lectures
         {% endif %}
     </td>
     <td>
-        {% if lecture.readings %}
+        {% assign index = 1 %}
         <ul>
-        {% for reading in lecture.readings %}
-            <li>{{ reading }}</li>
-        {% endfor %}
+        {% while lecture["reading_material_" | append: index] %}
+            <li>
+                {{ lecture["reading_material_" | append: index] }}
+            </li>
+            {% assign index = index | plus: 1 %}
+        {% endwhile %}
         </ul>
-        {% endif %}
     </td>
     <td>
         <p>{{ lecture.logistics }}</p>
