@@ -42,9 +42,15 @@ title: Lectures
               |  
             {% endif %}
             {% if lecture.assignment %}
-            <a href="{{ lecture.assignment }}" target="_blank">assignment</a>
+            <a href="{{ lecture.assignment }}" target="_blank">assignment (pdf)</a>
             {% endif %}
-            {% if lecture.notes and lecture.assignment%}
+            {% if lecture.tex and lecture.assignment%}
+              |  
+            {% endif %}
+            {% if lecture.tex%}
+            <a href="{{ lecture.tex}}" target="_blank">assignment (tex)</a>
+            {% endif %}
+            {% if lecture.notes and lecture.tex%}
               |  
             {% endif %}
             {% if lecture.notes %}

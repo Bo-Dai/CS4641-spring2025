@@ -41,8 +41,9 @@
   lecturer:  Bo Dai
   title: >
     <strong>Optimization</strong>
-  slides: 
+  slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture4.pdf
   assignment: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW1.pdf
+  tex: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW1.zip
   # video:
   readings:
     - HW1 out
