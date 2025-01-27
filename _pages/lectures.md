@@ -74,7 +74,15 @@ title: Lectures
             <a href="{{ lecture.notes }}" target="_blank">notes</a>
             {% endif %}
 
-            {% if lecture.notes and lecture.reading %}
+            {% if lecture.notes and lecture.video %}
+            |
+            {% endif %}
+            {% if lecture.video %}
+            <a href="{{ lecture.video }}" target="_blank">Recording</a>
+            {% endif %}
+
+
+            {% if lecture.video and lecture.reading %}
             |
             {% endif %}
             {% if lecture.reading %}
