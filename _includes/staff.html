@@ -1,125 +1,68 @@
 <div class="instructors clearfix">
-  <h2>Instructors</h2>
+  <div class="section-header">
+    <h2>Instructors</h2>
+  </div>
   <div class="instructors-list">
     {% for instructor in site.data.staff.Instructors %}
     <div class="instructor-profile">
-      <div class="instructor-info">
-        {% if instructor.image %}
-        <a href="{{ instructor.url }}" target="_blank">
-          <img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" alt="Profile Picture" />
-        </a>
-        {% endif %}
-        <strong>{{ instructor.name }}</strong>
-        <br />
-        <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a>
-      </div>
+      <strong>{{ instructor.name }}</strong>
+      <br />
+      <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a>
     </div>
     {% endfor %}
   </div>
-  
-  <h2>Teaching Assistants</h2>
+
+  <div class="section-header">
+    <h2>Teaching Assistants</h2>
+  </div>
   <div class="tas-list">
     {% for ta in site.data.staff.TA %}
     <div class="ta-profile">
-      <div class="ta-info">
-        {% if ta.image %}
-        <a href="{{ ta.url }}" target="_blank">
-          <img src="{{ ta.image | prepend: '/assets/img/' | relative_url }}" alt="Profile Picture" />
-        </a>
-        {% endif %}
-        <strong>{{ ta.name }}</strong>
-        <br />
-        <a href="mailto:{{ ta.email | encode_email }}" target="_blank">{{ ta.email }}</a>
-      </div>
+      <strong>{{ ta.name }}</strong>
+      <br />
+      <a href="mailto:{{ ta.email | encode_email }}" target="_blank">{{ ta.email }}</a>
     </div>
     {% endfor %}
   </div>
 </div>
 
-<hr />
-
-<!-- Separate Section for Office Hours -->
-<div class="office-hours">
-  <h2>Office Hours</h2>
-  <ul class="office-hours-list">
-    <li>
-      <strong>Tuesday:</strong> 2:30-3:30pm, <em>Online</em> (<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzA3ZWI2OWUtNTEzNC00YzE4LTk4NmYtNmI5YmJmYTIyYzAx%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%224f6cd2ac-53df-4b00-9d76-e378aa26842c%22%7d" target="_blank">Join Session</a>):
-      Prof. Dai
-    </li>
-    <li>
-      <strong>Wednesday:</strong> 3:00-4:00pm, <em>Coda*</em>: 
-      Haotian Sun, Zihao Zhao, Jonathan Li
-    </li>
-    <li>
-      <strong>Friday:</strong> 3:00-4:00pm, <em>Coda*</em>: 
-      Tianyi Chen, Binyue Deng
-    </li>
-  </ul>
-  <p><small><strong>*Note:</strong> "Coda" refers to the second floor of the Coda building, shared area near the escalator.</small></p>
-</div>
-
 <style>
-  /* General Styles for Instructors and TAs */
-  .instructors, .tas-list {
+  .instructors,
+  .tas-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
   }
 
-  .instructor-profile, .ta-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 150px;
+  .instructor-profile,
+  .ta-profile {
+    text-align: center;
+    width: 200px; /* Uniform width for all profiles */
+  }
+
+  .section-header {
     text-align: center;
     margin-bottom: 1rem;
   }
 
-  .instructor-profile img, .ta-profile img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 50%;
+  .instructor-profile strong,
+  .ta-profile strong {
+    font-size: 1.1rem;
+    display: block;
     margin-bottom: 0.5rem;
   }
 
-  .instructor-info, .ta-info {
+  .instructor-profile a,
+  .ta-profile a {
     font-size: 0.9rem;
-    line-height: 1.4;
+    color: #0078d4; /* Subtle link color */
+    text-decoration: none;
   }
 
-  /* Styles for Office Hours */
-  .office-hours {
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-  }
-
-  .office-hours h2 {
-    margin-bottom: 1rem;
-  }
-
-  .office-hours-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .office-hours-list li {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-  }
-
-  .office-hours-list em {
-    font-style: italic;
-    color: #555;
-  }
-
-  .office-hours p small {
-    display: block;
-    margin-top: 1rem;
-    font-size: 0.875rem;
-    color: #666;
+  .instructor-profile a:hover,
+  .ta-profile a:hover {
+    text-decoration: underline;
   }
 </style>
