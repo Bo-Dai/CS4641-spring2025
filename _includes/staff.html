@@ -1,39 +1,39 @@
 <div class="instructors clearfix">
-  {% for instructor in site.data.staff.Instructors %}
-  <div class="instructor-profile-two-col">
-    {% if instructor.image %}
-    <a href="{{ instructor.url }}" target="_blank"><img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" /></a>
-    {% endif %}
-    <ul class="instructor-info">
-      <li><span><b>Instructor:</b></span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
-      <li><span><b>Email:</b></span> <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a></li>
-      {% if instructor.office-hours %}
-      <li><span><b>Office hours:</b></span> {{ instructor.office-hours }}</li>
-      {% endif %}
-      {% if instructor.session_link %}
-      <li><span><b>Session Link:</b></span> <a href="{{ instructor.session_link }}" target="_blank">Join Office Hours</a></li>
-      {% endif %}
-    </ul>
+  <h2>Instructors</h2>
+  <div class="instructors-list">
+    {% for instructor in site.data.staff.Instructors %}
+    <div class="instructor-profile">
+      <div class="instructor-info">
+        {% if instructor.image %}
+        <a href="{{ instructor.url }}" target="_blank">
+          <img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" alt="Profile Picture" />
+        </a>
+        {% endif %}
+        <strong>{{ instructor.name }}</strong>
+        <br />
+        <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a>
+      </div>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-
-  {% for instructor in site.data.staff.TA %}
-  <div class="instructor-profile-two-col">
-    {% if instructor.image %}
-    <a href="{{ instructor.url }}" target="_blank"><img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" /></a>
-    {% endif %}
-    <ul class="instructor-info">
-      <li><span><b>TA:</b></span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
-      <li><span><b>Email:</b></span> <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a></li>
-      {% if instructor.office-hours %}
-      <li><span><b>Office hours:</b></span> {{ instructor.office-hours }}</li>
-      {% endif %}
-      {% if instructor.session_link %}
-      <li><span><b>Session Link:</b></span> <a href="{{ instructor.session_link }}" target="_blank">Join Office Hours</a></li>
-      {% endif %}
-    </ul>
+  
+  <h2>Teaching Assistants</h2>
+  <div class="tas-list">
+    {% for ta in site.data.staff.TA %}
+    <div class="ta-profile">
+      <div class="ta-info">
+        {% if ta.image %}
+        <a href="{{ ta.url }}" target="_blank">
+          <img src="{{ ta.image | prepend: '/assets/img/' | relative_url }}" alt="Profile Picture" />
+        </a>
+        {% endif %}
+        <strong>{{ ta.name }}</strong>
+        <br />
+        <a href="mailto:{{ ta.email | encode_email }}" target="_blank">{{ ta.email }}</a>
+      </div>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
 
 <hr />
@@ -59,32 +59,36 @@
 </div>
 
 <style>
-  .instructors {
-    margin-bottom: 2rem;
-  }
-
-  .instructor-profile-two-col {
+  /* General Styles for Instructors and TAs */
+  .instructors, .tas-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .instructor-profile, .ta-profile {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 1.5rem;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 
-  .instructor-profile-two-col img {
-    max-width: 100px;
-    margin-right: 1rem;
-    border-radius: 8px;
-  }
-
-  .instructor-info {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .instructor-info li {
+  .instructor-profile img, .ta-profile img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
     margin-bottom: 0.5rem;
   }
 
+  .instructor-info, .ta-info {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  /* Styles for Office Hours */
   .office-hours {
     margin-top: 2rem;
     padding: 1rem;
