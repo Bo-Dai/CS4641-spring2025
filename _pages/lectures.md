@@ -46,35 +46,35 @@ title: Lectures
             <a href="{{ lecture.assignment }}" target="_blank">assignment (pdf)</a>
             {% endif %}
 
-            {% if (lecture.assignment or lecture.slides) and lecture.code_data %}
+            {% if lecture.assignment and lecture.code_data %}
             |
             {% endif %}
             {% if lecture.code_data %}
             <a href="{{ lecture.code_data }}" target="_blank">code & data</a>
             {% endif %}
 
-            {% if (lecture.code_data or lecture.assignment) and lecture.solution %}
+            {% if lecture.code_data and lecture.solution %}
             |
             {% endif %}
             {% if lecture.solution %}
             <a href="{{ lecture.solution }}" target="_blank">solution</a>
             {% endif %}
 
-            {% if (lecture.solution or lecture.code_data) and lecture.tex %}
+            {% if lecture.solution and lecture.tex %}
             |
             {% endif %}
             {% if lecture.tex %}
             <a href="{{ lecture.tex }}" target="_blank">assignment (tex)</a>
             {% endif %}
 
-            {% if (lecture.tex or lecture.solution) and lecture.notes %}
+            {% if lecture.tex and lecture.notes %}
             |
             {% endif %}
             {% if lecture.notes %}
             <a href="{{ lecture.notes }}" target="_blank">notes</a>
             {% endif %}
 
-            {% if (lecture.notes or lecture.tex) and lecture.reading %}
+            {% if lecture.notes and lecture.reading %}
             |
             {% endif %}
             {% if lecture.reading %}
