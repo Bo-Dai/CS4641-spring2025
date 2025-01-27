@@ -44,7 +44,13 @@ title: Lectures
             {% if lecture.assignment %}
             <a href="{{ lecture.assignment }}" target="_blank">assignment (pdf)</a>
             {% endif %}
-            {% if lecture.solution and lecture.assignment%}
+            {% if lecture.code_data and lecture.assignment%}
+              |  
+            {% endif %}
+            {% if lecture.code_data %}
+            <a href="{{ lecture.assignment }}" target="_blank">code/data</a>
+            {% endif %}
+            {% if lecture.solution and lecture.code_data%}
               |  
             {% endif %}
             {% if lecture.solution%}
