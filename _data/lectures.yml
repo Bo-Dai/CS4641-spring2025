@@ -72,7 +72,7 @@
   lecturer:  Bo Dai
   title: >
     <strong>Linear Regression</strong>
-  slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture5.pdf
+  slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture6.pdf
   # video:
   readings:
 
@@ -80,7 +80,7 @@
   lecturer:  Bo Dai
   title: >
     <strong>Logistic Regression</strong>
-  slides: 
+  slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture7.pdf
   # video:
   readings:
     - HW1 Due
