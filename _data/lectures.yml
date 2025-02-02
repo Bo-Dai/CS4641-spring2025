@@ -88,7 +88,7 @@
 - date: 02/03/2025
   lecturer:  Bo Dai
   title: >
-    <strong>Naïve Bayes Classifier</strong>
+    <strong>Multiclass Logistic Regression \& Naive Bayes</strong>
   slides: 
   # video:
   readings:
