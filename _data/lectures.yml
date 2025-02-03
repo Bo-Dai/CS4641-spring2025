@@ -1,7 +1,7 @@
 
 - title: "Module 1: Background"
 
-- date: 01/06/2025
+- date: 01/06
   lecturer:  Bo Dai
   title: >
     <strong>Course Overview</strong>
@@ -12,7 +12,7 @@
   readings:
     - Background Test Out (See assignment)
 
-- date: 01/08/2025
+- date: 01/08
   lecturer:  Bo Dai
   title: >
     <strong>Linear Algebra</strong>
@@ -21,7 +21,7 @@
   readings:
     - Background Test Due (Hand in during class)
 
-# - date: 01/10/2025
+# - date: 01/10
 #   lecturer:  Bo Dai
 #   title: >
 #     Background due
@@ -29,7 +29,7 @@
 #   # video:
 #   readings:
 
-- date: 01/13/2025
+- date: 01/13
   lecturer:  Bo Dai
   title: >
     <strong>Probabilistic and Statistics</strong>
@@ -38,7 +38,7 @@
   readings:
   reading: https://www.cs.cmu.edu/~./awm/tutorials/prob18.pdf
 
-- date: 01/15/2025
+- date: 01/15
   lecturer:  Bo Dai
   title: >
     <strong>Optimization</strong>
@@ -49,7 +49,7 @@
   readings:
     - HW1 out
 
-- date: 01/20/2025
+- date: 01/20
   lecturer:  Bo Dai
   title: >
     No Class (Martin Luther King Day)
@@ -57,7 +57,7 @@
   # video:
   readings:
 
-- date: 01/22/2025
+- date: 01/22
   lecturer:  Haotian Sun & Tianyi Chen
   title: >
     <strong>Python / Numpy Review Session (TA session)</strong>
@@ -68,7 +68,7 @@
 
 - title: "Module 2: Supervised Learning"
 
-- date: 01/27/2025
+- date: 01/27
   lecturer:  Bo Dai
   title: >
     <strong>Linear Regression</strong>
@@ -76,7 +76,7 @@
   # video:
   readings:
 
-- date: 01/29/2025
+- date: 01/29
   lecturer:  Bo Dai
   title: >
     <strong>Logistic Regression</strong>
@@ -85,7 +85,7 @@
   readings:
     - HW1 Due
 
-- date: 02/03/2025
+- date: 02/03
   lecturer:  Bo Dai
   title: >
     <strong>Multiclass Logistic Regression & Naive Bayes Classifier</strong>
@@ -95,7 +95,7 @@
   readings:
     - HW2 Out
 
-- date: 02/05/2025
+- date: 02/05
   lecturer:  Bo Dai
   title: >
     <strong>Generative Model vs Discriminative Model</strong>
@@ -103,7 +103,7 @@
   # video:
   readings:
 
-- date: 02/10/2025
+- date: 02/10
   lecturer:  Bo Dai
   title: >
     <strong>Neural Networks</strong>
@@ -112,7 +112,7 @@
   readings:
     - Team Formation Due
 
-- date: 02/12/2025
+- date: 02/12
   lecturer:  Bo Dai
   title: >
     <strong>Backpropagation</strong>
@@ -120,7 +120,7 @@
   # video:
   readings:
 
-- date: 02/17/2025
+- date: 02/17
   lecturer:  Bo Dai
   title: >
     <strong>CNNs</strong>
@@ -129,7 +129,7 @@
   readings:
     - HW2 Due
 
-- date: 02/19/2025
+- date: 02/19
   lecturer:  Bo Dai
   title: >
     <strong>RNNs</strong>
@@ -137,7 +137,7 @@
   # video:
   readings:
 
-- date: 02/24/2025
+- date: 02/24
   lecturer:  Tianyi Chen
   title: >
     <strong>PyTorch Review Session (TA session)</strong>
@@ -148,7 +148,7 @@
 
 - title: "Module 3: Unsupervised Learning"
 
-- date: 03/03/2025
+- date: 03/03
   lecturer:  Bo Dai
   title: >
     <strong>Clustering: K-means</strong>
@@ -156,7 +156,7 @@
   # video:
   readings:
 
-- date: 03/05/2025
+- date: 03/05
   lecturer:  Bo Dai
   title: >
     <strong>Clustering ↔ Density Estimation: Gaussian Mixture Models</strong>
@@ -165,7 +165,7 @@
   readings:
     - HW3 Out
 
-- date: 03/10/2025
+- date: 03/10
   lecturer:  Bo Dai
   title: >
     <strong>Variational Auto-Encoder</strong>
@@ -173,7 +173,7 @@
   # video:
   readings:
 
-- date: 03/12/2025
+- date: 03/12
   lecturer:  Bo Dai
   title: >
     <strong>Midterm Exam</strong>
@@ -181,7 +181,7 @@
   # video:
   readings:
 
-- date: 03/17/2025
+- date: 03/17
   lecturer:  Bo Dai
   title: >
     No Class (Spring Break)
@@ -189,7 +189,7 @@
   # video:
   readings:
 
-- date: 03/19/2025
+- date: 03/19
   lecturer:  Bo Dai
   title: >
     No Class (Spring Break)
@@ -197,7 +197,7 @@
   # video:
   readings:
 
-- date: 03/24/2025
+- date: 03/24
   lecturer:  Bo Dai
   title: >
     <strong>Dimension Reduction</strong>
@@ -206,7 +206,7 @@
   readings:
     - HW3 Due
 
-- date: 03/26/2025
+- date: 03/26
   lecturer:  Bo Dai
   title: >
     <strong>Representation Learning</strong>
@@ -217,7 +217,7 @@
 
 - title: "Module 5: Large Language Models"
 
-- date: 03/31/2025
+- date: 03/31
   lecturer:  Bo Dai
   title: >
     <strong>LLMs: Attention and Transformer</strong>
@@ -225,7 +225,7 @@
   # video:
   readings:
 
-- date: 04/02/2025
+- date: 04/02
   lecturer:  Bo Dai
   title: >
     <strong>LLMs: Instruction Fine-Tuning</strong>
@@ -233,7 +233,7 @@
   # video:
   readings:
 
-- date: 04/07/2025
+- date: 04/07
   lecturer:  Bo Dai
   title: >
     <strong>LLMs: RLHF</strong>
@@ -243,7 +243,7 @@
 
 - title: "Module 6: Projects"
 
-- date: 04/09/2025
+- date: 04/09
   lecturer:  Bo Dai
   title: >
     <strong>Project Presentation</strong>
@@ -251,7 +251,7 @@
   # video:
   readings:
 
-- date: 04/14/2025
+- date: 04/14
   lecturer:  Bo Dai
   title: >
     <strong>Project Presentation</strong>
@@ -259,7 +259,7 @@
   # video:
   readings:
 
-- date: 04/16/2025
+- date: 04/16
   lecturer:  Bo Dai
   title: >
     <strong>Project Presentation</strong>
@@ -267,7 +267,7 @@
   # video:
   readings:
 
-- date: 04/21/2025
+- date: 04/21
   lecturer:  Bo Dai
   title: >
     No Class; Project Report Due
