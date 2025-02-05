@@ -101,7 +101,7 @@
     <strong>Generative Model vs Discriminative Model</strong>
   slides: 
   # video:
-  readings:
+  readings: https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf
 
 - date: 02/10
   lecturer:  Bo Dai
