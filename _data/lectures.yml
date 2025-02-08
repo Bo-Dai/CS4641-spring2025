@@ -44,7 +44,7 @@
     <strong>Optimization</strong>
   slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture4.pdf
   assignment: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW1.pdf
-  solution: /Users/haotiansun/Documents/GitHub/CS4641-spring2025/assignment/CS4641_HW1_sol.pdf
+  solution: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW1_sol.pdf
   tex: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW1.zip
   # video:
   readings:
@@ -92,7 +92,7 @@
     <strong>Multiclass Logistic Regression & Naive Bayes Classifier</strong>
   slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture8.pdf
   assignment: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW2_pdf.zip
-  tex: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_ HW2_tex.zip
+  tex: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW2_tex.zip
   readings:
     - HW2 Out
 
