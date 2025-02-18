@@ -149,7 +149,7 @@
 
 - title: "Module 3: Unsupervised Learning"
 
-- date: 03/03
+- date: 02/26
   lecturer:  Bo Dai
   title: >
     <strong>Clustering: K-means</strong>
@@ -157,7 +157,7 @@
   # video:
   readings:
 
-- date: 03/05
+- date: 03/03
   lecturer:  Bo Dai
   title: >
     <strong>Clustering ↔ Density Estimation: Gaussian Mixture Models</strong>
@@ -166,7 +166,7 @@
   readings:
     - HW3 Out
 
-- date: 03/10
+- date: 03/05
   lecturer:  Bo Dai
   title: >
     <strong>Variational Auto-Encoder</strong>
@@ -174,10 +174,18 @@
   # video:
   readings:
 
-- date: 03/12
+- date: 03/10
   lecturer:  Bo Dai
   title: >
     <strong>Midterm Exam</strong>
+  slides: 
+  # video:
+  readings:
+
+- date: 03/12
+  lecturer:  Bo Dai
+  title: >
+    No Class (Spring Break)
   slides: 
   # video:
   readings:
@@ -193,21 +201,13 @@
 - date: 03/19
   lecturer:  Bo Dai
   title: >
-    No Class (Spring Break)
-  slides: 
-  # video:
-  readings:
-
-- date: 03/24
-  lecturer:  Bo Dai
-  title: >
     <strong>Dimension Reduction</strong>
   slides: 
   # video:
   readings:
     - HW3 Due
 
-- date: 03/26
+- date: 03/24
   lecturer:  Bo Dai
   title: >
     <strong>Representation Learning</strong>
@@ -218,7 +218,7 @@
 
 - title: "Module 5: Large Language Models"
 
-- date: 03/31
+- date: 03/26
   lecturer:  Bo Dai
   title: >
     <strong>LLMs: Attention and Transformer</strong>
@@ -226,7 +226,7 @@
   # video:
   readings:
 
-- date: 04/02
+- date: 03/31
   lecturer:  Bo Dai
   title: >
     <strong>LLMs: Instruction Fine-Tuning</strong>
@@ -234,7 +234,7 @@
   # video:
   readings:
 
-- date: 04/07
+- date: 04/02
   lecturer:  Bo Dai
   title: >
     <strong>LLMs: RLHF</strong>
@@ -243,6 +243,14 @@
   readings:
 
 - title: "Module 6: Projects"
+
+- date: 04/07
+  lecturer:  Bo Dai
+  title: >
+    <strong>Project Presentation</strong>
+  slides: 
+  # video:
+  readings:
 
 - date: 04/09
   lecturer:  Bo Dai
