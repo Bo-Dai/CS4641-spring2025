@@ -177,7 +177,7 @@
 - date: 03/10
   lecturer:  Bo Dai
   title: >
-    <strong>Midterm Exam</strong>
+    <strong>Dimension Reduction</strong>
   slides: 
   # video:
   readings:
@@ -185,7 +185,7 @@
 - date: 03/12
   lecturer:  Bo Dai
   title: >
-    No Class (Spring Break)
+    <strong>Midterm Exam</strong>
   slides: 
   # video:
   readings:
@@ -201,11 +201,12 @@
 - date: 03/19
   lecturer:  Bo Dai
   title: >
-    <strong>Dimension Reduction</strong>
+    No Class (Spring Break)
   slides: 
   # video:
   readings:
     - HW3 Due
+
 
 - date: 03/24
   lecturer:  Bo Dai
@@ -214,7 +215,7 @@
   slides: 
   # video:
   readings:
-    - Project Presentation Signup
+    - Project Presentation Sign-up
 
 - title: "Module 5: Large Language Models"
 
