@@ -143,6 +143,7 @@
   title: >
     <strong>PyTorch Review Session (TA session)</strong>
   slides: 
+  code_data: https://colab.research.google.com/drive/1lImrcJ--PuMZP8K6R8zZoU_DMnnXvZmA?usp=sharing
   # video:
   readings:
     # - [Colab]
