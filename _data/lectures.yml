@@ -153,7 +153,7 @@
 - date: 02/26
   lecturer:  Bo Dai
   title: >
-    <strong>Clustering: K-means</strong>
+    <strong>Density Estimation: Gaussian Mixture Models</strong>
   slides: 
   # video:
   readings:
@@ -161,7 +161,7 @@
 - date: 03/03
   lecturer:  Bo Dai
   title: >
-    <strong>Clustering ↔ Density Estimation: Gaussian Mixture Models</strong>
+    <strong>Clustering: K-means ↔ Gaussian Mixture Models</strong>
   slides: 
   # video:
   readings:
