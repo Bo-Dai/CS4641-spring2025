@@ -81,12 +81,17 @@ title: Lectures
             <a href="{{ lecture.video }}" target="_blank">recording</a>
             {% endif %}
 
-
             {% if lecture.video and lecture.reading %}
             |
             {% endif %}
             {% if lecture.reading %}
             <a href="{{ lecture.reading }}" target="_blank">reading</a>
+            {% endif %}
+            {% if lecture.reading and lecture.practice %}
+            |
+            {% endif %}
+            {% if lecture.practice %}
+            <a href="{{ lecture.practice }}" target="_blank">midterm practice</a>
             {% endif %}
         ]
         {% endif %}
