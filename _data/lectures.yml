@@ -212,20 +212,28 @@
   readings:
 
 
-
 - date: 03/24
   lecturer:  Bo Dai
   title: >
-    <strong>Representation Learning</strong>
+    <strong>Midterm Solution Review & Regrade Discussion</strong>
   slides: 
   # video:
   readings:
     - Project Presentation Sign-up
     - HW3 Due
 
+- date: 03/26
+  lecturer:  Bo Dai
+  title: >
+    <strong>Representation Learning</strong>
+  slides: 
+  # video:
+  readings:
+
+
 - title: "Module 4: Large Language Models"
 
-- date: 03/26
+- date: 03/31
   lecturer:  Bo Dai
   title: >
     <strong>LLMs: Attention and Transformer</strong>
@@ -233,18 +241,18 @@
   # video:
   readings:
 
-- date: 03/31
-  lecturer:  Bo Dai
-  title: >
-    <strong>LLMs: Instruction Fine-Tuning</strong>
-  slides: 
-  # video:
-  readings:
+# - date: 03/31
+#   lecturer:  Bo Dai
+#   title: >
+#     <strong>LLMs: Instruction Fine-Tuning</strong>
+#   slides: 
+#   # video:
+#   readings:
 
 - date: 04/02
   lecturer:  Bo Dai
   title: >
-    <strong>LLMs: RLHF</strong>
+    <strong>LLMs: Instruction Fine-Tuning & RLHF</strong>
   slides: 
   # video:
   readings:
