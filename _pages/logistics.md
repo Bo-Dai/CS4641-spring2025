@@ -75,7 +75,7 @@ You may also refer to the Stanford Project Examples.
     - Details of the experiments and results  
   - **Conclusion**: Discussion and future work  
 
-The project final report will be due at **11:59 PM on April 28th**.
+The project final report will be due at **11:59 PM on April 21st**.
 
 **Criteria**:
 - 30% for proposed method (soundness and originality)  
