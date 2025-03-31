@@ -238,17 +238,9 @@
   lecturer:  Bo Dai
   title: >
     <strong>LLMs: Attention and Transformer</strong>
-  slides: 
+  slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture22.pdf
   # video:
   readings:
-
-# - date: 03/31
-#   lecturer:  Bo Dai
-#   title: >
-#     <strong>LLMs: Instruction Fine-Tuning</strong>
-#   slides: 
-#   # video:
-#   readings:
 
 - date: 04/02
   lecturer:  Bo Dai
