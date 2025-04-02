@@ -100,7 +100,13 @@ title: Lectures
   {% if lecture.readings %}
   <ul>
     {% for reading in lecture.readings %}
-      <li><a href="{{ reading.url }}" target="_blank">{{ reading.text }}</a></li>
+      <li>
+        {% if reading.url %}
+          <a href="{{ reading.url }}" target="_blank">{{ reading.text }}</a>
+        {% else %}
+          {{ reading.text }}
+        {% endif %}
+      </li>
     {% endfor %}
   </ul>
   {% endif %}
