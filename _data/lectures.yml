@@ -10,7 +10,7 @@
   slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture1.pdf
   # video:
   readings:
-    - Background Test Out (See assignment)
+    - text: Background Test Out (See assignment)
 
 - date: 01/08
   lecturer:  Bo Dai
@@ -19,7 +19,7 @@
   slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture2.pdf
   # video:
   readings:
-    - Background Test Due (Hand in during class)
+    - text: Background Test Due (Hand in during class)
 
 # - date: 01/10
 #   lecturer:  Bo Dai
@@ -48,7 +48,7 @@
   tex: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW1.zip
   # video:
   readings:
-    - HW1 out
+    - text: HW1 out
 
 - date: 01/20
   lecturer:  Bo Dai
@@ -84,7 +84,7 @@
   slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture7.pdf
   # video:
   readings:
-    - HW1 Due
+    - text: HW1 Due
 
 - date: 02/03
   lecturer:  Bo Dai
@@ -95,7 +95,7 @@
   tex: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW2_tex.zip
   solution: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW2_sol.zip
   readings:
-    - HW2 Out
+    - text: HW2 Out
 
 - date: 02/05
   lecturer:  Bo Dai
@@ -112,7 +112,7 @@
   slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture10.pdf
   # video:
   readings:
-    - Team Formation Due
+    - text: Team Formation Due
 
 - date: 02/12
   lecturer:  Bo Dai
@@ -129,7 +129,7 @@
   slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture12.pdf
   # video:
   readings:
-    - HW2 Due
+    - text: HW2 Due
 
 - date: 02/19
   lecturer:  Bo Dai
@@ -177,7 +177,7 @@
   tex: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_HW3_tex.zip
   practice: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_midterm_practice.pdf
   readings:
-    - HW3 & Midterm Practice Out
+    - text: HW3 & Midterm Practice Out
 
 - date: 03/10
   lecturer:  Bo Dai
@@ -220,7 +220,7 @@
   solution: https://bo-dai.github.io/CS4641-spring2025/assignment/CS4641_midterm_sol.pdf
   # video:
   readings:
-    - HW3 Due
+    - text: HW3 Due
 
 - date: 03/26
   lecturer:  Bo Dai
@@ -229,7 +229,8 @@
   slides: https://bo-dai.github.io/CS4641-spring2025/slides/lecture21.pdf
   # video:
   readings:
-      - Project Presentation Sign-up (https://docs.google.com/spreadsheets/d/1QX759JzkRaGs-H1y_UDM0mlCeBMdyX3pyj8TKTSNWLc/edit?usp=sharing)
+    - text: Project Presentation Sign-up
+      url: https://docs.google.com/spreadsheets/d/1QX759JzkRaGs-H1y_UDM0mlCeBMdyX3pyj8TKTSNWLc/edit?usp=sharing
 
 
 - title: "Module 4: Large Language Models"
