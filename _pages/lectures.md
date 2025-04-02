@@ -96,15 +96,15 @@ title: Lectures
         ]
         {% endif %}
     </td>
-    <td>
-        {% if lecture.readings %}
-        <ul>
-        {% for reading in lecture.readings %}
-            <li>{{ reading }}</li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-    </td>
+<td>
+  {% if lecture.readings %}
+  <ul>
+    {% for reading in lecture.readings %}
+      <li><a href="{{ reading.url }}" target="_blank">{{ reading.text }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</td>
     <td>
         <p>{{ lecture.logistics }}</p>
     </td>
