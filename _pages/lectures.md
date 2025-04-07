@@ -57,7 +57,7 @@ title: Lectures
             |
             {% endif %}
             {% if lecture.solution %}
-            <a href="{{ lecture.solution }}" target="_blank">hw_solution</a>
+            <a href="{{ lecture.solution }}" target="_blank">solution</a>
             {% endif %}
 
             {% if lecture.solution and lecture.code_data %}
